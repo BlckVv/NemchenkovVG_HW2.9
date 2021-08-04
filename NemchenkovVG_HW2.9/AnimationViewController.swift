@@ -30,6 +30,9 @@ class AnimationViewController: UIViewController {
             
             infoLabel.text = animationInfo()
             
+            sender.animation = "squeezeLeft"
+            sender.animate()
+            
             sender.setTitle("Run Slide Right Animation", for: .normal)
             
         case "Slide Right":
@@ -44,6 +47,9 @@ class AnimationViewController: UIViewController {
             animationName = "Slide Down"
             
             infoLabel.text = animationInfo()
+            
+            sender.animation = "squeezeRight"
+            sender.animate()
             
             sender.setTitle("Run Slide Down Animation", for: .normal)
         
@@ -60,6 +66,9 @@ class AnimationViewController: UIViewController {
             
             infoLabel.text = animationInfo()
             
+            sender.animation = "squeezeDown"
+            sender.animate()
+            
             sender.setTitle("Run Slide Up Animation", for: .normal)
 
         case "Slide Up":
@@ -74,6 +83,9 @@ class AnimationViewController: UIViewController {
             animationName = "Slide Left"
             
             infoLabel.text = animationInfo()
+            
+            sender.animation = "squeezeUp"
+            sender.animate()
             
             sender.setTitle("Run Slide Left Animation", for: .normal)
 
