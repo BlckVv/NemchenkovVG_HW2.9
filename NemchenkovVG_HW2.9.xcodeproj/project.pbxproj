@@ -3,23 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2272965BAE9508200902A060 /* Pods_NemchenkovVG_HW2_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FA6DB7F8E23DEEA000032F /* Pods_NemchenkovVG_HW2_9.framework */; };
 		E6050A0226BAD9AD008330A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6050A0126BAD9AD008330A5 /* AppDelegate.swift */; };
 		E6050A0426BAD9AD008330A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6050A0326BAD9AD008330A5 /* SceneDelegate.swift */; };
-		E6050A0626BAD9AD008330A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6050A0526BAD9AD008330A5 /* ViewController.swift */; };
+		E6050A0626BAD9AD008330A5 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6050A0526BAD9AD008330A5 /* AnimationViewController.swift */; };
 		E6050A0926BAD9AD008330A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6050A0726BAD9AD008330A5 /* Main.storyboard */; };
 		E6050A0B26BAD9B1008330A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6050A0A26BAD9B1008330A5 /* Assets.xcassets */; };
 		E6050A0E26BAD9B1008330A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6050A0C26BAD9B1008330A5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20020D605C52CDBF07698C1F /* Pods-NemchenkovVG_HW2.9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NemchenkovVG_HW2.9.release.xcconfig"; path = "Target Support Files/Pods-NemchenkovVG_HW2.9/Pods-NemchenkovVG_HW2.9.release.xcconfig"; sourceTree = "<group>"; };
+		25FA6DB7F8E23DEEA000032F /* Pods_NemchenkovVG_HW2_9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NemchenkovVG_HW2_9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8321DE75CDD19F781046909 /* Pods-NemchenkovVG_HW2.9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NemchenkovVG_HW2.9.debug.xcconfig"; path = "Target Support Files/Pods-NemchenkovVG_HW2.9/Pods-NemchenkovVG_HW2.9.debug.xcconfig"; sourceTree = "<group>"; };
 		E60509FE26BAD9AD008330A5 /* NemchenkovVG_HW2.9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NemchenkovVG_HW2.9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6050A0126BAD9AD008330A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6050A0326BAD9AD008330A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6050A0526BAD9AD008330A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6050A0526BAD9AD008330A5 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		E6050A0826BAD9AD008330A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6050A0A26BAD9B1008330A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6050A0D26BAD9B1008330A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2272965BAE9508200902A060 /* Pods_NemchenkovVG_HW2_9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DC00BFBBA819C6077FE4983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FA6DB7F8E23DEEA000032F /* Pods_NemchenkovVG_HW2_9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4B487A89B230AB425EB322 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8321DE75CDD19F781046909 /* Pods-NemchenkovVG_HW2.9.debug.xcconfig */,
+				20020D605C52CDBF07698C1F /* Pods-NemchenkovVG_HW2.9.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E60509F526BAD9AD008330A5 = {
 			isa = PBXGroup;
 			children = (
 				E6050A0026BAD9AD008330A5 /* NemchenkovVG_HW2.9 */,
 				E60509FF26BAD9AD008330A5 /* Products */,
+				AF4B487A89B230AB425EB322 /* Pods */,
+				6DC00BFBBA819C6077FE4983 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +82,7 @@
 			children = (
 				E6050A0126BAD9AD008330A5 /* AppDelegate.swift */,
 				E6050A0326BAD9AD008330A5 /* SceneDelegate.swift */,
-				E6050A0526BAD9AD008330A5 /* ViewController.swift */,
+				E6050A0526BAD9AD008330A5 /* AnimationViewController.swift */,
 				E6050A0726BAD9AD008330A5 /* Main.storyboard */,
 				E6050A0A26BAD9B1008330A5 /* Assets.xcassets */,
 				E6050A0C26BAD9B1008330A5 /* LaunchScreen.storyboard */,
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6050A1226BAD9B1008330A5 /* Build configuration list for PBXNativeTarget "NemchenkovVG_HW2.9" */;
 			buildPhases = (
+				D4C065321F514C05D78732CE /* [CP] Check Pods Manifest.lock */,
 				E60509FA26BAD9AD008330A5 /* Sources */,
 				E60509FB26BAD9AD008330A5 /* Frameworks */,
 				E60509FC26BAD9AD008330A5 /* Resources */,
+				653C4BD4891FE13F422B1415 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +158,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		653C4BD4891FE13F422B1415 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NemchenkovVG_HW2.9/Pods-NemchenkovVG_HW2.9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NemchenkovVG_HW2.9/Pods-NemchenkovVG_HW2.9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NemchenkovVG_HW2.9/Pods-NemchenkovVG_HW2.9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C065321F514C05D78732CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NemchenkovVG_HW2.9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E60509FA26BAD9AD008330A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6050A0626BAD9AD008330A5 /* ViewController.swift in Sources */,
+				E6050A0626BAD9AD008330A5 /* AnimationViewController.swift in Sources */,
 				E6050A0226BAD9AD008330A5 /* AppDelegate.swift in Sources */,
 				E6050A0426BAD9AD008330A5 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +351,7 @@
 		};
 		E6050A1326BAD9B1008330A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8321DE75CDD19F781046909 /* Pods-NemchenkovVG_HW2.9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +370,7 @@
 		};
 		E6050A1426BAD9B1008330A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20020D605C52CDBF07698C1F /* Pods-NemchenkovVG_HW2.9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
